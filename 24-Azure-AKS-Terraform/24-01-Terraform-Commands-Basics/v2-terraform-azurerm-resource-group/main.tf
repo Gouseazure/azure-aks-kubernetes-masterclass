@@ -5,10 +5,8 @@ provider "azurerm" {
   #version = "=2.35.0"
   #version = "~>2.35.0"
   #version = "~> 2.37.0"
-  #version = "4.57.0"
   features {}
 }
-
  
 # Create a Azure Resource Group
 resource "azurerm_resource_group" "aks-rg2" {
